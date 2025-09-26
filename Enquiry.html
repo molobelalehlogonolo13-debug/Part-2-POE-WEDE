@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact: Apple Avenue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+
+<img src="img/5.png" alt="The image of the cover" height="250" width="250">
+
+<body background="IMG/1.jpg">
+   <div class="main">
+
+        <nav>
+            
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+  <h1>APPLE AVENUE</h1>
+
+
+ <div class="overlay">
+    <div class="form-container">
+      <h2>Enquiry Form</h2>
+      <form id="enquiryForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" pattern="[0-9]{10}" required>
+        </div>
+        <div class="form-group">
+          <label for="iam">I am a:</label>
+          <select id="iam" required>
+            <option value="">Select</option>
+            <option value="customer">Customer</option>
+            <option value="dealer">Dealer</option>
+            <option value="supplier">Supplier</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Your Enquiry</label>
+          <textarea id="message" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+
+
+
+
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+  /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+.main {
+    background-image: url('IMG/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+
+        /* Navbar Styles */
+        nav {
+            background-color: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(10, 10, 10);
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        /* Image Styling */
+        img {
+            margin-top: 40px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Heading */
+        h1 {
+            text-align: center;
+            margin-top: 30px;
+            color: rgb(7, 7, 7);
+        }
+
+        /* Paragraph */
+        .par {
+            width: 80%;
+            margin: 20px auto;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: justify;
+            color: rgb(5, 5, 5);
+        }
+
+        /* Footer */
+        footer {
+            background-color: none;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+            font-size: 16px;
+            color: rgb(5, 5, 4);
+            width: 100%;
+        }
+
+.search-box {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+

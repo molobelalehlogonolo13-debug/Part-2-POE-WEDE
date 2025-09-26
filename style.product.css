@@ -1,0 +1,130 @@
+main{
+    background-image: url('../IMG/1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    width: 100%;
+}
+/* General Page Styling */
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f1f1;
+    color: #333;
+}
+
+nav {
+            background-color: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: red;
+        }
+
+        /* Image Styling */
+        img {
+            margin-top: 40px;
+            max-width: 100%;
+            height: auto;
+        }
+/* Navigation Bar */
+
+/* Page Title */
+h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 2.5em;
+    color: #111;
+}
+
+/* Product Section */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Each Product Card */
+.product {
+    background: #3e3e3e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(97, 96, 96, 0.885);
+}
+
+.product p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Product Images */
+.product img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  margin: 20px auto;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.search-box button {
+  padding: 8px 12px;
+  border: none;
+  background: #007BFF;
+  color: white;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background: #0056b3;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+}
